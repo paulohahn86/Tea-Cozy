@@ -1,0 +1,181 @@
+/* Pattern CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Helvetica;
+  font-size: 20px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/* Header */
+header {
+  display: flex;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+}
+
+.logo {
+  height: 50px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Navegation */
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+
+nav ul {
+  display: inline-flex;
+  list-style-type: none;
+  padding-right: 10px;
+}
+li a {
+  color: white;
+  padding: 10px;
+}
+
+/* Mission Section */
+
+.mission {
+  background-image: url("./img/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 700px;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.our-mission {
+  width: 100%;
+  margin: 0px;
+}
+
+.our-mission h2,
+.our-mission h4 {
+  background-color: black;
+  padding: 5px;
+}
+
+/* Tea Section */
+
+.tea-month {
+  width: 100%;
+  margin: 0;
+}
+
+.tea-month h2,
+.tea-month h4 {
+  background-color: black;
+  padding: 5px;
+}
+
+.tea-month h2 {
+  margin-top: 40px;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.images img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+  display: inline-flex;
+}
+
+.images figcaption {
+  margin-bottom: 5px;
+}
+
+/* Locations Section */
+
+.locations {
+  width: 100%;
+  margin: 0;
+}
+
+.background {
+  background-image: url("./img/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 500px;
+  width: 100%;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.background h2 {
+  background-color: transparent;
+  text-align: center;
+}
+
+.location {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.address {
+  background-color: black;
+  margin: 15px;
+  min-width: 300px;
+}
+
+.address h3,
+.address p {
+  margin: 20px;
+}
+
+/* Contact Section */
+
+.contact {
+  width: 100%;
+  margin: 0px;
+}
+
+.information {
+  min-height: 200px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.information h1,
+.information h3,
+.information h5 {
+  padding: 10px;
+  margin: 10px;
+}
+
+/* Footer Section */
+
+footer p {
+  text-align: left;
+  margin: 20px;
+}
