@@ -1,5 +1,6 @@
 THE TEA COZY
 
 This is a project codecademy's Full-Stack Engineer program.
+Non-responsive project
 
-teste
+https://paulohahn86.github.io/TeaCozy/
